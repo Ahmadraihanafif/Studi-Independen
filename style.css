@@ -1,42 +1,49 @@
 * {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: italic;
 }
 
-body,
-h1,
-h2,
-p {
+body {
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
 
 header {
   background-color: #333;
-  color: #fff;
+  color: white;
   text-align: center;
   padding: 20px 0;
 }
+.profil,
+.pengalaman,
+.pendidikan,
+.kontak {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
 
-.container {
+.p {
+  max-width: 55%;
+}
+.flex {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
 }
-
-.profile {
-  text-align: center;
-  margin-right: 20px;
-}
-
-.profile img {
-  max-width: 50%;
+img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: auto;
   border-radius: 50%;
 }
 
-.details {
-  background-color: #ffffff;
-  padding: 20px;
-  border-radius: 5px;
+ul {
+  list-style-type: square;
+}
+
+footer {
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
 }
